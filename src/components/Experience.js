@@ -168,21 +168,7 @@ function Experience() {
                         and so on.  
                     </Typography>
                 </Box>
-                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
-                    2013
-                </Typography>
-                <Box component="div" className={classes.timeLineItem}>
-                    <Typography variant="h5" align="center" className={classes.subHeading}>
-                        Web Design
-                    </Typography>
-                    <Typography variant="body1" align="center" style= {{color: "tomato"}}>
-                        company name where worked
-                    </Typography>
-                    <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
-                       Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Temporibus ducimus dolorem odio nostrum tenetur vel quis vitae illo explicabo debitis?
-                    </Typography>
-                </Box>
+                 
             </Box>
         </Box>
 
