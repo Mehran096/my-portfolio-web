@@ -131,8 +131,8 @@ function Experience() {
                         Online Worked
                     </Typography>
                     <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
-                       In the web designing i have used photoshop, CSS3, Bootstrap 4 5. I have created a lot's of single page websites,
-                        multi-page websites and designing multiple Portfolio for the friends and other people.
+                    In the web designing I have used photoshop, CSS3, Bootstrap 4 5. I have designed a lot's of single page websites,
+                     multi-page websites and designed multiple Portfolio for the friends and other people.
                     </Typography>
                 </Box>
                 <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -146,8 +146,8 @@ function Experience() {
                         Online Worked
                     </Typography>
                     <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
-                       I have created facebook clone, whatsapp clone, e-commerce websites and others in the 
-                       web development using React js, React Redux, material-ui,  PHP, Laravel.
+                       I have created facebook clone, whatsapp clone, e-commerce websites and others. In the 
+                       web development I have used React js, React Redux, material-ui,  PHP, Laravel.
                     </Typography>
                 </Box>
                 <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
@@ -161,8 +161,8 @@ function Experience() {
                         Online Worked
                     </Typography>
                     <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
-                       In the mern Stack I have created 3 projects Flipkart clone, chatting apps and others.
-                       In the first project (flipkart clone) i have gained a lot's of knowledge that how we created API in mern stack
+                       In the MERN Stack I have created 3 projects Flipkart clone, chatting apps and others.
+                       In the first project (flipkart clone) I have gained a lot's of knowledge that how we created API in MERN stack
                        and how we handle it and how we testing it in the Postman. This was a very large project but not responsive, not responsive
                        but I have learned a lot's of things that how we debugging the code, multiple APIs, Redux handling, connection of nodejs with reactjs 
                         and so on.  

@@ -312,6 +312,22 @@ function Skills() {
                      Bootstrap also supports JavaScript extensions.
                     </Typography>
                 </Box>
+                <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
+                    2020
+                </Typography>
+                <Box component="div" className={classes.timeLineItem}>
+                    <Typography variant="h5" align="center" className={classes.subHeading}>
+                        NEXT JS
+                    </Typography>
+                    <Typography variant="body1" align="center" style= {{color: "tomato"}}>
+                    JavaScript framework
+                    </Typography>
+                    <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
+                    It lets you build server-side rendering and static web applications using React. 
+                    It's a great tool to build your next website. It has many great features and advantages,
+                     which can make Nextjs your first option for building your next web application.
+                    </Typography>
+                </Box>
             </Box>
         </Box>
         
