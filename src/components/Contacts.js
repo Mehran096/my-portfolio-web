@@ -52,13 +52,13 @@ export default function Contacts() {
              <span>+923112764875</span>
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            click below on link (EMAIL ME) to send email
+            click below on button (EMAIL ME) to send email
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
-          <ArrowForwardIcon/><a href="mailto:mehranh91309@gmail.com">email me</a>
+        <Button size="small" color="primary" style={{  border: "1px solid black", textShadow: "1px 1px 1px red", boxShadow: "3px 3px 4px black"}}>
+          <ArrowForwardIcon/><a href="mailto:mehranh91309@gmail.com" style={{ textDecoration: "none"}}>email me</a>
         </Button>
         {/* <Button size="small" color="primary">
         <a href="mailto:mehranh91309@gmail.com">

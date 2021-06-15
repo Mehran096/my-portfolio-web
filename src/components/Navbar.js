@@ -94,8 +94,9 @@ function Navbar() {
     const sideList = slider => (
         <Box
          className={classes.menuSliderContainer} 
-         component="div">
-         onClick={toggleSlider(slider, false)}
+         component="div"  onClick={toggleSlider(slider, false)}>
+        
+         
         <Avatar className={classes.avatar} src={avatar} alt="any type" />
         <Divider/>
             <List>
@@ -123,7 +124,7 @@ function Navbar() {
             <IconButton onClick={toggleSlider("right", true)}>
                 <ArrowBackIos  style={{ color: "tomato"}}/> 
             </IconButton>
-            <Typography variant="h5" style={{color: "tan"}} onClick={toggleSlider("right", true)}>Portfolio</Typography>
+            <Typography variant="h5" style={{color: "tan",  cursor: "pointer"}} onClick={toggleSlider("right", true)}>Portfolio</Typography>
             <MobilRightMenuSlider
                 anchor="right"
                 open={state.right}
