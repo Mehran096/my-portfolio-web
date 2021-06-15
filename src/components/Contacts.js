@@ -9,7 +9,8 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
  
-import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+// import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import EmailIcon from '@material-ui/icons/Email';
 import project1 from "../images/contact.jpg";
  
 
@@ -57,8 +58,8 @@ export default function Contacts() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary" style={{  border: "1px solid black", textShadow: "1px 1px 1px red", boxShadow: "3px 3px 4px black"}}>
-          <ArrowForwardIcon/><a href="mailto:mehranh91309@gmail.com" style={{ textDecoration: "none"}}>email me</a>
+        <Button size="small" color="primary" style={{  border: "none", background:"rgba(199, 0, 0, 0.1)", width: "100%"}} >
+        <EmailIcon /> <a href="mailto:mehranh91309@gmail.com" style={{ textDecoration: "none"}}>email me</a>
         </Button>
         {/* <Button size="small" color="primary">
         <a href="mailto:mehranh91309@gmail.com">

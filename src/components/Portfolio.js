@@ -20,8 +20,6 @@ import {
 
  const useStyles = makeStyles({
     mainContainer: {
-        //background: "url(photo.jpg) no-repeat center center fixed",
-
       //background:  "#233",
        height: "100%"
     },
