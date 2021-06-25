@@ -136,6 +136,8 @@ function Portfolio() {
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
                              it's an reactjs chat app creating on chatengine.io. chatengine is amazing
                              for the beginner to create a real time chat app.
+                             <div color="primary">Username:basit</div>
+                             <div>Password:321321</div>
                         </Typography>
 
                     </CardContent>
