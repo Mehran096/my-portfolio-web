@@ -14,8 +14,8 @@ import {
  } from "@material-ui/core";
  import project1 from "../images/flipkart.png";
  import project2 from "../images/flipkart-clone.png";
- import project3 from "../images/skull.jpg";
- import project4 from "../images/code.jpg";
+ import project3 from "../images/chat.jpg";
+ //import project4 from "../images/code.jpg";
  
 
  const useStyles = makeStyles({
@@ -134,18 +134,22 @@ function Portfolio() {
                         </Typography>
 
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam quia dolores! Dolorum, eaque, 
-                            atque id in aut tempore tenetur possimus rerum perspiciatis officiis itaque est voluptatibus fugit vitae quas.
+                             it's an reactjs chat app creating on chatengine.io. chatengine is amazing
+                             for the beginner to create a real time chat app.
                         </Typography>
 
                     </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            share
-                        </Button>
-                        <Button size="small" color="primary">
+                    <Button size="small" color="primary">
+                        <a href="https://compassionate-sammet-e724b4.netlify.app/" style={{textDecoration:"none"}}>
                             Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/reactjs-chat-app"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
                         </Button>
                     </CardActions>
  
@@ -154,41 +158,7 @@ function Portfolio() {
             </Card>
             </Grid>
             {/* project 4 */}
-            <Grid item xs={12} sm={8} md={6}>
-            <Card className={classes.cardContainer}>
-                <CardActionArea>
-                    <CardMedia
-                    component="img"
-                    alt="project 1"
-                    height="140"
-                    image={project4}
-
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5">
-                            project 4
-                        </Typography>
-
-                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati numquam quia dolores! Dolorum, eaque, 
-                            atque id in aut tempore tenetur possimus rerum perspiciatis officiis itaque est voluptatibus fugit vitae quas.
-                        </Typography>
-
-                    </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small" color="primary">
-                            share
-                        </Button>
-                        <Button size="small" color="primary">
-                            Live Demo
-                        </Button>
-                    </CardActions>
- 
-
-                
-            </Card>
-            </Grid>
+             
         </Grid>
             
         </Box>
