@@ -62,7 +62,7 @@ function Portfolio() {
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                        <a href="https://flikrt-admin-app.herokuapp.com/" style={{textDecoration:"none"}}>
+                        <a href="https://upbeat-spence-6d6e12.netlify.app/" style={{textDecoration:"none"}}>
                             Live Demo
                         </a>
                         </Button>
@@ -136,8 +136,8 @@ function Portfolio() {
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
                              it's an reactjs chat app creating on chatengine.io. chatengine is amazing
                              for the beginner to create a real time chat app.
-                             <div color="primary">Username:basit</div>
-                             <div>Password:321321</div>
+                             <div className="pass-f">Username:basit</div>
+                             <div className="pass-f">Password:321321</div>
                         </Typography>
 
                     </CardContent>
