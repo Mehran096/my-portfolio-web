@@ -15,7 +15,7 @@ import {
  import project1 from "../images/flipkart.png";
  import project2 from "../images/flipkart-clone.png";
  import project3 from "../images/chat.jpg";
- //import project4 from "../images/code.jpg";
+ import project4 from "../images/Whatsapp.jpg";
  
 
  const useStyles = makeStyles({
@@ -159,6 +159,47 @@ function Portfolio() {
                 
             </Card>
             </Grid>
+            {/* project 4 */}
+            <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project4}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 4
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        it's a WhatsApp clone created on MERN. In this project used pusher for handle the messages. And 
+                        i learned about the pusher that how we used it in backend and frontend.
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://flamboyant-wing-868dca.netlify.app/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/whatsapp-clone-MERN"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
             {/* project 4 */}
              
         </Grid>
