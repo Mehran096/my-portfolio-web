@@ -16,6 +16,7 @@ import {
  import project2 from "../images/flipkart-clone.png";
  import project3 from "../images/chat.jpg";
  import project4 from "../images/Whatsapp.jpg";
+ import project5 from "../images/medium.png";
  
 
  const useStyles = makeStyles({
@@ -201,6 +202,49 @@ function Portfolio() {
             </Grid>
 
             {/* project 4 */}
+            {/* project 5 */}
+            <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project5}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 5
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        it's a Medium.com clone created on MERN. In this project used redux for handle the states very easily. In this
+                        project I have Created 3 API with itself and I have learned very well that how we used and created the API in MERN Stack
+                         
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://mern-blog-like-medium.herokuapp.com/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/MERN-Blog-Like-Medium.com"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
+            {/* project 5 */}
              
         </Grid>
             
