@@ -17,6 +17,8 @@ import {
  import project3 from "../images/chat.jpg";
  import project4 from "../images/Whatsapp.jpg";
  import project5 from "../images/medium.png";
+ import project6 from "../images/todo.jpg";
+ import project7 from "../images/add.jpg";
  
 
  const useStyles = makeStyles({
@@ -63,12 +65,12 @@ function Portfolio() {
                     </CardActionArea>
                     <CardActions>
                         <Button size="small" color="primary">
-                        <a href="https://upbeat-spence-6d6e12.netlify.app/" style={{textDecoration:"none"}}>
+                        <a href="https://hopeful-wilson-a18d2a.netlify.app/" style={{textDecoration:"none"}}>
                             Live Demo
                         </a>
                         </Button>
                         <Button size="small" color="primary"   > 
-                        <a href="https://github.com/Mehran096/ecommerce-admin"  style={{textDecoration:"none"}}>
+                        <a href="https://github.com/Mehran096/ecommerce-flipkart-admin"  style={{textDecoration:"none"}}>
                             Source Code
                         </a>
                         </Button>
@@ -103,12 +105,12 @@ function Portfolio() {
                     </CardActionArea>
                     <CardActions>
                        <Button size="small" color="primary">
-                        <a href="https://flipkrt-app-clone.herokuapp.com/" style={{textDecoration:"none"}}>
+                        <a href="https://tender-benz-03cc1b.netlify.app/" style={{textDecoration:"none"}}>
                             Live Demo
                         </a>
                         </Button>
                         <Button size="small" color="primary"   > 
-                        <a href="https://github.com/Mehran096/ecommerce-flipkart"  style={{textDecoration:"none"}}>
+                        <a href="https://github.com/Mehran096/ecommerce-flipkart-client"  style={{textDecoration:"none"}}>
                             Source Code
                         </a>
                         </Button>
@@ -245,6 +247,89 @@ function Portfolio() {
             </Grid>
 
             {/* project 5 */}
+            {/* project 6 */}
+            <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project6}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 6
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        it's a Todo App with reduxtoolkit. In this project used reduxtoolkit for handle the data and framer motion used for 
+                         the animation.
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://jolly-villani-cb25c7.netlify.app/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/Todo-App-reduxtoolkit"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
+            {/* project 6 */}
+            {/* project 7 */}
+            <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project7}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 7
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        it's a add to card shopping card App with redux. In this project used redux for handle the data 
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://modest-mayer-c9cadf.netlify.app/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/Add-To-Card-With-Redux"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
+            {/* project 7 */}
              
         </Grid>
             
