@@ -19,6 +19,7 @@ import {
  import project5 from "../images/medium.png";
  import project6 from "../images/todo.jpg";
  import project7 from "../images/add.jpg";
+ import project8 from "../images/psp.png";
  
 
  const useStyles = makeStyles({
@@ -330,6 +331,47 @@ function Portfolio() {
             </Grid>
 
             {/* project 7 */}
+             {/* project 8 */}
+             <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project8}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 7
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        simple crud, search and toggle operation with pure redux
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://keen-albattani-92e170.netlify.app/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/simple-crud-with-redux"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
+            {/* project 8 */}
              
         </Grid>
             
