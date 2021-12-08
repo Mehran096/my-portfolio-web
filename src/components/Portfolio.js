@@ -344,7 +344,7 @@ function Portfolio() {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h5">
-                            project 7
+                            project 8
                         </Typography>
 
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
