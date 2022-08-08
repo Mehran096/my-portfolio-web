@@ -52,7 +52,7 @@ function Header() {
              /> 
             </Typography>
             <Typography className={classes.subtitle}>
-                I have One plus year experience in MERN stack development check my projects and work experience (click on Portfolio)
+                I have One plus years experience in MERN stack development check my projects and work experience (click on Portfolio)
             </Typography>
         </Box>
     )

@@ -98,7 +98,7 @@ function Portfolio() {
                         </Typography>
 
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
-                        it's an client part of flipkart clone but it's not responsive. You can check source code 
+                        it's a client part of flipkart clone but it's not responsive. You can check source code 
                             on any device but demo not, demo check on full screen
                         </Typography>
 
@@ -138,7 +138,7 @@ function Portfolio() {
                         </Typography>
 
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
-                             it's an reactjs chat app creating on chatengine.io. chatengine is amazing
+                             it's a reactjs chat app creating on chatengine.io. chatengine is amazing
                              for the beginner to create a real time chat app.
                              <div className="pass-f">Username:basit</div>
                              <div className="pass-f">Password:321321</div>
@@ -307,7 +307,7 @@ function Portfolio() {
                         </Typography>
 
                         <Typography gutterBottom variant="body2" color="textSecondary" component="p">
-                        it's a add to card shopping card App with redux. In this project used redux for handle the data 
+                        it's an add to card shopping card App with redux. In this project used redux for handle the data 
                         </Typography>
 
                     </CardContent>
