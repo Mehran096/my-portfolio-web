@@ -67,7 +67,7 @@ function Portfolio() {
                     <CardActions>
                         <Button size="small" color="primary">
                         <a href="https://hopeful-wilson-a18d2a.netlify.app/" style={{textDecoration:"none"}}>
-                            Live Demo
+                            live Demo
                         </a>
                         </Button>
                         <Button size="small" color="primary"   > 
