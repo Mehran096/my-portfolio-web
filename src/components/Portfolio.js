@@ -20,6 +20,7 @@ import {
  import project6 from "../images/todo.jpg";
  import project7 from "../images/add.jpg";
  import project8 from "../images/psp.png";
+ import project9 from "../images/admin.jpg";
  
 
  const useStyles = makeStyles({
@@ -67,7 +68,7 @@ function Portfolio() {
                     <CardActions>
                         <Button size="small" color="primary">
                         <a href="https://hopeful-wilson-a18d2a.netlify.app/" style={{textDecoration:"none"}}>
-                            live Demo
+                            Live Demo
                         </a>
                         </Button>
                         <Button size="small" color="primary"   > 
@@ -372,6 +373,47 @@ function Portfolio() {
             </Grid>
 
             {/* project 8 */}
+            {/* project 9 */}
+            <Grid item xs={12} sm={8} md={6}>
+            <Card className={classes.cardContainer}>
+                <CardActionArea>
+                    <CardMedia
+                    component="img"
+                    alt="project 1"
+                    height="140"
+                    image={project9}
+
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5">
+                            project 9
+                        </Typography>
+
+                        <Typography gutterBottom variant="body2" color="textSecondary" component="p">
+                        React admin-dashboard
+                        </Typography>
+
+                    </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                       <Button size="small" color="primary">
+                        <a href="https://magnificent-malasada-dcfb66.netlify.app/" style={{textDecoration:"none"}}>
+                            Live Demo
+                        </a>
+                        </Button>
+                        <Button size="small" color="primary"   > 
+                        <a href="https://github.com/Mehran096/Admin-dashboard"  style={{textDecoration:"none"}}>
+                            Source Code
+                        </a>
+                        </Button>
+                    </CardActions>
+ 
+
+                
+            </Card>
+            </Grid>
+
+            {/* project 9 */}
              
         </Grid>
             
