@@ -161,7 +161,7 @@ function Experience() {
                         Online Worked
                     </Typography>
                     <Typography variant="subtitle1" align="center" style= {{color: "tan"}}>
-                       In the MERN Stack I have created 3 projects Flipkart clone, chatting apps and others.
+                       In the MERN Stack I have created 5 projects Flipkart clone, chatting apps and others.
                        In the first project (flipkart clone) I have gained a lot's of knowledge that how we created API in MERN stack
                        and how we handle it and how we testing it in the Postman. This was a very large project but not responsive, not responsive
                        but I have learned a lot's of things that how we debugging the code, multiple APIs, Redux handling, connection of nodejs with reactjs 
